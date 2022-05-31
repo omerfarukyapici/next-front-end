@@ -1,8 +1,8 @@
-const Footer = () => {
+const Product = () => {
     return(
         <div className="bg-[yellow] text-black">
-            Footer
+            Product
         </div>
     )
 }
-export default Footer;
+export default Product;

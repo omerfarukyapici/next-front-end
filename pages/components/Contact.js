@@ -1,8 +1,8 @@
-const Content = () => {
+const Contact = () => {
     return(
         <div className="bg-black text-white">
-            Content
+            Contact
         </div>
     )
 }
-export default Content;
+export default Contact;
