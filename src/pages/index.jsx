@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div >
       <Header />
-      <div>
+      <div className="">
         Home
       </div>
       <pre>

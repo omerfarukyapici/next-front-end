@@ -2,8 +2,8 @@ import Link from "next/link";
 
 const Header = () => {
     return (
-        <div className="flex justify-between">
-            <div>
+        <div className="bg-black text-white">
+            <div className="">
                 <Link href="/">
                     <a>Home</a>
                 </Link>

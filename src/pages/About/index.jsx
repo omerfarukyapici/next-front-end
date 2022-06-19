@@ -1,10 +1,12 @@
 import Header from "../../components/Header";
 
 const About = () => {
-    return(
-        <div>
+    return (
+        <div >
             <Header />
-            About
+            <div className="">
+                About
+            </div>
         </div>
     );
 }
