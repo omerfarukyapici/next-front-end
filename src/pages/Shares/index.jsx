@@ -1,11 +1,17 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const Shares = () => {
-    return(
-        <div>
+    return (
+        <>
             <Header />
-            Shares
-        </div>
+            <main>
+                <section>
+                    Shares
+                </section>
+            </main>
+            <Footer />
+        </>
     );
 }
 export default Shares;

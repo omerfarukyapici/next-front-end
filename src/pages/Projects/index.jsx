@@ -1,11 +1,17 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 const Projects = () => {
     return(
-        <div>
+        <>
             <Header />
-            Projects
-        </div>
+            <main>
+                <section>
+                    Projects
+                </section>
+            </main>
+            <Footer />
+        </>
     );
 }
 export default Projects;
