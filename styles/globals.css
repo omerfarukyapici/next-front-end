@@ -19,3 +19,28 @@ a {
   box-sizing: border-box;
 }
 
+/* Header - Footer */
+
+.github, .twitter, .linkedin {
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+}
+
+.github {
+  background-image: url("../public/img/github.svg");
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.twitter {
+  background-image: url("../public/img/twitter.svg");
+}
+
+.linkedin {
+  background-image: url("../public/img/linkedin.svg");
+  width: 1.4rem;
+  height: 1.4rem;
+}

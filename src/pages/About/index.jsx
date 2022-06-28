@@ -5,8 +5,8 @@ const About = () => {
     return (
         <>
             <Header />
-            <main>
-                <section>
+            <main className="flex justify-center bg-contentBg  ">
+                <section className="about-content w-main_w ">
                     About
                 </section>
             </main>

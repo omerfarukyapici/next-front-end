@@ -5,9 +5,9 @@ const Shares = () => {
     return (
         <>
             <Header />
-            <main>
-                <section>
-                    Shares
+            <main className="flex justify-center bg-contentBg ">
+                <section className="about-content w-main_w ">
+                    About
                 </section>
             </main>
             <Footer />

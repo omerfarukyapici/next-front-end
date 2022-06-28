@@ -5,9 +5,9 @@ const Projects = () => {
     return(
         <>
             <Header />
-            <main>
-                <section>
-                    Projects
+            <main className="flex justify-center bg-contentBg ">
+                <section className="about-content w-main_w ">
+                    About
                 </section>
             </main>
             <Footer />

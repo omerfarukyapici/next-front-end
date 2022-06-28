@@ -7,8 +7,12 @@ module.exports = {
   theme: {
     /* Custom colors */
     colors: {
-      // Configure your color palette here
-      deneme: 'orange'
+      // Configure your color palette here      
+      footerHeaderColor: '#fff'
+    },
+    backgroundColor:{
+      footerHeaderBg: '#161b22',
+      contentBg:'#0d1117'
     },
     extend: {
       minHeight: {
