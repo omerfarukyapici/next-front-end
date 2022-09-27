@@ -10,30 +10,36 @@ module.exports = {
       // Configure your color palette here      
       footerHeaderColor: '#fff'
     },
-    backgroundColor:{
+    backgroundColor: {
       footerHeaderBg: '#161b22',
-      contentBg:'#0d1117'
+      contentBg: '#0d1117'
     },
     extend: {
       minHeight: {
         main_m_h: '100vh'
       },
       width: {
-        main_w: '1200px',       
+        main_w: '1200px',
       },
-      margin:{
-        main_m: '1rem' 
+      margin: {
+        main_m: '1rem'
       },
       padding: {
         main_p: '1rem'
       },
       height: {
 
-      },      
-      backgroundColor:{
+      },
+      backgroundColor: {
 
       }
     },
   },
-  plugins: [],
+  darkMode: 'media',  // or darkMode: 'class'
+  plugins: [
+    require('tailwind-scrollbar')
+  ],
+  variants: {
+    scrollbar: ['dark']
+  }
 }
