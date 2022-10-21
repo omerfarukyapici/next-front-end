@@ -2,7 +2,7 @@ import Footer from "../components/Footer"
 import Header from "../components/Header"
 import { useEffect, useState } from "react";
 import Prism from "prismjs";
-import "prismjs/themes/prism-shades-of-purple.css";
+import "prismjs/themes/prism-tomorrow.min.css";
 
 
 /* 
