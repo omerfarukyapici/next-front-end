@@ -23,16 +23,16 @@ import "prismjs/themes/prism-holi-theme.css";
 
 export default function Home(props) {
 
-  const [todo, setTodo] = useState([]);
+  /* const [todo, setTodo] = useState([]); */
 
   useEffect(() => {
-    const fetchTodos = async () => {
+   /*  const fetchTodos = async () => {
       const res = await fetch('https://jsonplaceholder.typicode.com/todos/');
       const data = await res.json()
       setTodo(data)
     }
-
-    fetchTodos()
+ */
+    /* fetchTodos(); */
     Prism.highlightAll();
   }, [])
 
@@ -127,7 +127,7 @@ export default function Home(props) {
 }
 
 
-export async function getServerSideProps() {
+/* export async function getServerSideProps() {
   const res = await fetch('https://jsonplaceholder.typicode.com/todos/');
   const data = await res.json()
   return {
@@ -135,4 +135,4 @@ export async function getServerSideProps() {
       data
     }
   }
-}
+} */
